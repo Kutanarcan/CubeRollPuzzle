@@ -375,6 +375,31 @@ Findings → [`FINDINGS.md`](Assets/Prototype/FINDINGS.md)
 
 </details>
 
+<details name="live">
+<summary><b>🤖 AI-Assisted Workflow</b></summary>
+<br>
+
+AI is used as a pair programmer under rules I designed — not as an autopilot.
+
+**Who does what**
+
+| Me | AI |
+|---|---|
+| Game design, roadmap, decisions | Implements one phase at a time |
+| Architecture rules & constraints | Follows the active mode's rules |
+| Review, refactor for readability | Explains the approach before coding |
+| Deciding when a phase is done | Stops after every phase |
+
+**How it's controlled**
+- **Modes:** `PROTOTYPE` and `PRODUCTION` rule sets; only I switch between them.
+- **Folder-scoped rules:** prototype rules can't leak into production code, and vice versa.
+- **Small phases:** every phase is playable or tested before the next begins.
+- **Human review:** every phase is read, renamed and refined by hand.
+
+Rules → [`CLAUDE.md`](CLAUDE.md) · [`.claude/`](.claude/)
+
+</details>
+
 ---
 
 <sub>MIT License · Made with Unity by <a href="https://github.com/Kutanarcan">Kutanarcan</a></sub>
