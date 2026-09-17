@@ -7,7 +7,7 @@
 An open-source hybrid-casual puzzle game built through a **simulated studio pipeline** —
 from prototype to LiveOps, every stage a real studio would go through.
 
-![Unity](https://img.shields.io/badge/Unity-6000.x_LTS-black?logo=unity&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-6000.3.21f1._LTS-black?logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![Tests](https://img.shields.io/badge/Tests-Unity_Test_Framework-2ea043)
 ![Platform](https://img.shields.io/badge/Mobile-Portrait-lightgrey)
